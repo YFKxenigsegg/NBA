@@ -5,5 +5,21 @@
       "Microsoft.AspNetCore": "Warning"
     }
   },
-  "AllowedHosts": "*"
+  "AllowedHosts": "*",
+  "MongoOptions": {
+    "Client": {
+      "Name": "mongo",
+      "Url": "mongodb://localhost:27017"
+    },
+    "Databases": {
+      "0": {
+        "Name": "management",
+        "Collections": {
+          "0": {
+            "Name": "packets"
+          }
+        }
+      }
+    }
+  }
 }
