@@ -1,0 +1,6 @@
+@NBA.EventBus_HostAddress = http://localhost:5293
+
+GET {{NBA.EventBus_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

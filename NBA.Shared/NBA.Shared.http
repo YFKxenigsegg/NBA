@@ -1,0 +1,6 @@
+@NBA.Shared_HostAddress = http://localhost:5152
+
+GET {{NBA.Shared_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
